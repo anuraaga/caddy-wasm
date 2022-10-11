@@ -1,0 +1,12 @@
+{
+  debug
+  auto_https off
+  order wasm first
+}
+
+:8080 {
+  wasm {
+    path "testdata/example.wasm"
+  }
+  respond "Hello {path}"
+}

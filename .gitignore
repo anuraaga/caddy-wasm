@@ -1,0 +1,13 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.o
+*.dylib
+.DS_Store
+.idea
+.vscode
+# Test binary, built with `go test -c`
+*.test
+
+build/
